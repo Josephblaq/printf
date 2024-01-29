@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <limits.h>
 #include <stdarg.h>
+/**
+ * _printf - program that prints formatted strings to stdout
+ * @format: char pointer to the arguments to be printed
+ * @...: lists of the arguments to be printed
+ *
+ * Return: always return 0(success)
+ */
 
 int _printf(const char *format, ...);
 {
