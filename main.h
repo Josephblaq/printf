@@ -1,4 +1,6 @@
+#ifndef MAIN_H
 #define MAIN_H
+
 #include<stdarg.h>
 #include<stdio.h>
 
@@ -11,4 +13,4 @@ void _print_char(va_list args);
 void _print_string(va_list args);
 void _print_percent(va_list args);
 
-#endif
+#endif /*MAIN_H*/
