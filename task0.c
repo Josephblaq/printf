@@ -7,7 +7,7 @@
  * @format: char pointer to the arguments to be printed
  * @...: lists of the arguments to be printed
  *
- * Return: always return 0(success)
+ * Return: return the number of characters printed (without the Null character)
  */
 
 int _printf(const char *format, ...);
