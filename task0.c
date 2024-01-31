@@ -53,6 +53,7 @@ int _printf(const char *format, ...)
                     while (ptr[str_len] != '\0')
                         str_len++;
 
+<<<<<<< HEAD
                     write(1, ptr, str_len);
                     chara_str += str_len;
                 }
@@ -63,6 +64,15 @@ int _printf(const char *format, ...)
                 }
             }
         }
+=======
+				write(1, &C, 1);
+				chara_str++;
+			}
+			else if (*format == 's')
+			{
+				char *ptr = va_arg(arg_list, char*);
+				int str_len = 0;
+>>>>>>> da8444d48481677892f0e8b750c53a0a60e5282f
 
         format++;
     }
